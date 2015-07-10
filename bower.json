@@ -1,0 +1,26 @@
+{
+  "name": "mdlwp",
+  "version": "1.0.0",
+  "authors": [
+    "Brad Williams"
+  ],
+  "description": "Material Design Lite WordPress Theme",
+  "keywords": [
+    "material",
+    "design",
+    "wordpress",
+    "theme"
+  ],
+  "license": "MIT",
+  "homepage": "http://braginteractive.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "~1.0.0"
+  }
+}
