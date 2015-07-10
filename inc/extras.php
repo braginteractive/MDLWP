@@ -25,20 +25,6 @@ function mdlwp_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'mdlwp_body_classes' );
 
-/**
- * Adds custom classes to the array of post classes.
- *
- * @param array $classes Classes for the post element.
- * @return array
- */
-function mdlwp_post_classes( $classes ) {
-
-	$classes[] = 'mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp';
-
-	return $classes;
-}
-add_filter( 'post_class', 'mdlwp_post_classes' );
-
 if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 	/**
 	 * Filters wp_title to print a neat <title> tag based on what is being viewed.
