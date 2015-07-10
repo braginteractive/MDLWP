@@ -1,0 +1,40 @@
+.mdlwp-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: $color__dark-grey;
+  font-weight: 500;
+
+    > .mdlwp-nav__button {
+    color: $color__dark-grey;
+    text-decoration: none;
+  }
+
+  .mdl-button {
+    color: rgba(0,0,0,0.54);
+    background-color: white;
+  }
+
+  > .mdlwp-nav__button:first-child .mdl-button {
+    margin-right: 16px;
+  }
+
+  > .mdlwp-nav__button:last-child .mdl-button {
+    margin-left: 16px;
+  }
+
+}

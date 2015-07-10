@@ -1,0 +1,31 @@
+.mdlwp-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mdlwp-search-box {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+
+  .mdl-textfield__input {
+    border-bottom: 1px solid #fff;
+  }
+
+  &.is-focused ~ .mdlwp-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+}
