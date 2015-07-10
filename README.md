@@ -1,7 +1,4 @@
-MDLWP
-===
-
-## A Material Design Lite WordPress Theme
+## MDLWP - A Material Design Lite WordPress Theme
 
 MDLWP is a Material Design WordPress theme(probably the first!) that uses Sass, Gulp, Bower, and of course Material Design Lite. 
 
