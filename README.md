@@ -2,7 +2,7 @@
 
 MDLWP is a Material Design WordPress theme(probably the first!) that uses Sass, Gulp, Bower, and of course Material Design Lite. 
 
-[Live Demo](http://materialdesignthemes.com/demo/mdlwp/
+([Live Demo](http://materialdesignthemes.com/demo/mdlwp/)
 
 #### Tools Included
 
