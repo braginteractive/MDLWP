@@ -7,11 +7,3 @@ textarea {
 	font-family: 'Roboto', 'Helvetica', sans-serif;
 	@include font-size(1);
 }
-
-a {
-	color: $color__link;
-
-	&:hover {
-		color: $color__link-hover;
-	}
-}

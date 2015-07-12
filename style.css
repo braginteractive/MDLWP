@@ -1,10 +1,10 @@
 /*!
 Theme Name: MDLWP
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/braginteractive/MDLWP
 Author: Brad Williams
 Author URI: http://braginteractive.com
 Description: Material Design Lite WordPress Theme
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: mdlwp
@@ -46,13 +46,6 @@ textarea {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   font-size: 16px;
   font-size: 1rem; }
-
-/* line 11, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/typography/_typography.scss */
-a {
-  color: #3f51b5; }
-  /* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/typography/_typography.scss */
-  a:hover {
-    color: midnightblue; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -243,17 +236,17 @@ a {
       font-size: 12px;
       line-height: 16px; }
 
-/* line 107, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+/* line 105, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single-post .entry-content p {
   font-size: 16px;
   line-height: 28px; }
 
-/* line 115, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+/* line 113, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single .mdl-card__media,
 .page .mdl-card__media {
   cursor: default; }
 
-/* line 118, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+/* line 116, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single .content-area,
 .page .content-area {
   float: left;

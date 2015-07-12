@@ -7,7 +7,7 @@ MDLWP is a Material Design WordPress theme(probably the first!) that uses Sass, 
 [Setup Video](https://www.youtube.com/watch?v=1wVJn-Y2-CU)
 
 #### Future Plans
-- WordPress customizer options
+- ~~WordPress customizer options~~ (v1.0.1)
 - different page layouts
 - integrate other MDL components
 

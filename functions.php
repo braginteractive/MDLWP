@@ -73,7 +73,7 @@ function mdlwp_setup() {
 
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'mdlwp_custom_background_args', array(
-		'default-color' => 'ffffff',
+		'default-color' => 'f5f5f5',
 		'default-image' => '',
 	) ) );
 }

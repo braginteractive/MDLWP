@@ -19,7 +19,7 @@ function mdlwp_body_classes( $classes ) {
 		$classes[] = 'group-blog';
 	}
 
-	$classes[] = 'mdl-color--grey-100 mdl-color-text--grey-700 mdl-base';
+	$classes[] = 'mdl-color-text--grey-700 mdl-base';
 
 	return $classes;
 }
