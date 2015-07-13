@@ -142,30 +142,36 @@ textarea {
   margin-right: auto; }
 
 /*--------------------------------------------------------------
+# Widths
+--------------------------------------------------------------*/
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/modules/_widths.scss */
+.mdlwp-900 {
+  max-width: 900px; }
+
+/*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
 /* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-.site-content {
-  max-width: 900px;
+.site-main {
   padding-top: 40px;
   -ms-word-wrap: break-word;
   word-wrap: break-word; }
-  /* line 7, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-  .site-content .mdl-card {
+  /* line 6, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+  .site-main .mdl-card {
     margin-bottom: 35px; }
-  /* line 11, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-  .site-content header h3 {
+  /* line 10, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+  .site-main header h3 {
     margin: 0;
     color: #fff; }
-    /* line 15, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-    .site-content header h3 a {
+    /* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+    .site-main header h3 a {
       color: #fff;
       text-decoration: none; }
-  /* line 25, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-  .site-content .mdl-card__media {
+  /* line 24, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+  .site-main .mdl-card__media {
     box-sizing: border-box;
     background-size: cover;
     background-color: #757575;
@@ -189,8 +195,8 @@ textarea {
     align-items: flex-end;
     cursor: pointer;
     height: 280px; }
-  /* line 51, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-  .site-content .meta {
+  /* line 50, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+  .site-main .meta {
     box-sizing: border-box;
     padding: 16px;
     display: -webkit-box;
@@ -211,9 +217,9 @@ textarea {
     -ms-flex-pack: start;
     justify-content: flex-start;
     height: auto; }
-    /* line 74, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-    .site-content .meta .avatar,
-    .site-content .meta .entry-meta {
+    /* line 73, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+    .site-main .meta .avatar,
+    .site-main .meta .entry-meta {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -223,34 +229,28 @@ textarea {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column; }
-    /* line 85, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-    .site-content .meta .avatar-img {
+    /* line 84, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+    .site-main .meta .avatar-img {
       margin-right: 15px; }
-      /* line 88, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-      .site-content .meta .avatar-img img {
+      /* line 87, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+      .site-main .meta .avatar-img img {
         border-radius: 50%; }
-    /* line 94, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-    .site-content .meta .entry-meta a {
+    /* line 93, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+    .site-main .meta .entry-meta a {
       text-decoration: none;
       color: #757575;
       font-size: 12px;
       line-height: 16px; }
 
-/* line 105, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+/* line 104, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single-post .entry-content p {
   font-size: 16px;
   line-height: 28px; }
 
-/* line 113, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+/* line 112, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single .mdl-card__media,
 .page .mdl-card__media {
   cursor: default; }
-
-/* line 116, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
-.single .content-area,
-.page .content-area {
-  float: left;
-  width: 100%; }
 
 /*--------------------------------------------------------------
 ## Comments

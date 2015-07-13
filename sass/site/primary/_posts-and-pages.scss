@@ -1,5 +1,4 @@
-.site-content {
-	max-width: $size__site-content;
+.site-main {
 	padding-top: 40px;
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
@@ -112,9 +111,5 @@
 .page {
 	.mdl-card__media {
 		cursor: default;
-	}
-	.content-area {
-		float: left;
-		width: 100%;
 	}
 }

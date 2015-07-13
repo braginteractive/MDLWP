@@ -7,7 +7,7 @@
 
 ?>
 
-<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp"> 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php
 		    // Gets the stored background color value 
@@ -48,5 +48,6 @@
 			?>
 		</div><!-- .entry-content -->
 	</article><!-- #post-## -->
-</div> <!-- .mdl-cell-->
+</div> <!-- .mdl-cell -->
+
 

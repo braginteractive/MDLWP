@@ -7,8 +7,9 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+
+	<section id="primary" class="mdl-grid content-area">
+		<main id="main" class="site-main mdl-grid mdlwp-900" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -40,5 +41,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
+
 
 <?php get_footer(); ?>

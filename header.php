@@ -72,4 +72,4 @@
 			
 	
 <main class="mdl-layout__content">
-	<div id="content" class="site-content mdl-grid">
+	<div id="content" class="site-content">
