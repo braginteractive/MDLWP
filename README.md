@@ -38,3 +38,5 @@ After you've downloaded MDLWP, and run `npm install` and `gulp` from the command
 `gulp sass` - Compile, prefix, and minify CSS files
 
 `gulp bower` - Install bower components
+
+`gulp zip` - Creates a zipped file in the root of the theme. Ignores the bower_components and node_modules directories.

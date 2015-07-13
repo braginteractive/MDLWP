@@ -14,6 +14,7 @@ var gulp = require( 'gulp' ),
   sass = require( 'gulp-sass' );
   imagemin = require('gulp-imagemin');
   bower = require('gulp-bower');
+  zip = require('gulp-zip');
 
 var config = {
      bowerDir: './bower_components' 
@@ -25,6 +26,16 @@ var onError = function( err ) {
   console.log( 'An error occured:', err.message );
   this.emit('end');
 }
+
+gulp.task('zip', function () {
+ return gulp.src([
+   '*',
+   '!bower_components',
+   '!node_modules',
+  ], {base: "."})
+  .pipe(zip('mdlwp.zip'))
+  .pipe(gulp.dest('.'));
+});
 
 // Install all Bower components
 gulp.task('bower', function() {
