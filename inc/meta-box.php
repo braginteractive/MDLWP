@@ -1,19 +1,37 @@
 <?php
-
 /**
  * Adds a meta box to the post editing screen
  */
 function mdlwp_custom_meta() {
-	$screens = array( 'post', 'page' );
 
-	foreach ( $screens as $screen ) {
-		add_meta_box( 'mdlwp_meta', __( 'Customize', 'mdlwp' ), 'mdlwp_meta_callback', $screen );
+	global $post;
+
+	$pageTemplate = get_post_meta($post->ID, '_wp_page_template', true);
+
+	/**
+	 * Create meta box for all posts and pages
+	 */
+	if ($pageTemplate != 'templates/page-ribbon.php' ) {
+
+		$screens = array( 'post', 'page' );
+
+		foreach ( $screens as $screen ) {
+			add_meta_box( 'mdlwp_meta', __( 'Customize', 'mdlwp' ), 'mdlwp_meta_callback', $screen );
+		}
+	}
+
+	/**
+	 * Create meta box just for Ribbon page template
+	 */
+	if ($pageTemplate == 'templates/page-ribbon.php' ) {
+
+		add_meta_box( 'mdlwp_meta', __( 'Customize', 'mdlwp' ), 'mdlwp_ribbon_callback', 'page' );
 	}
 }
 add_action( 'add_meta_boxes', 'mdlwp_custom_meta' );
 
 /**
- * Outputs the content of the meta box
+ * Posts & Pages - Outputs the content of the meta box
  */
 function mdlwp_meta_callback( $post ) {
 	wp_nonce_field( basename( __FILE__ ), 'mdlwp_nonce' );
@@ -62,6 +80,45 @@ function mdlwp_meta_callback( $post ) {
 	<?php
 }
 
+/**
+ * Ribbon Page Template - Outputs the content of the meta box
+ */
+function mdlwp_ribbon_callback( $post ) {
+	wp_nonce_field( basename( __FILE__ ), 'mdlwp_nonce' );
+	$mdlwp_stored_meta = get_post_meta( $post->ID );
+	?>
+
+	<table class="form-table">
+		<tbody>
+
+			<tr>
+			    <th scope="row">
+			        <label for="mdlwp-ribbon-bg-color" class="mdlwp-row-title"><?php _e( 'Background Color', 'mdlwp' )?></label>
+			    </th>
+			    <td>
+			        <input name="mdlwp-ribbon-bg-color" type="text" value="<?php if ( isset ( $mdlwp_stored_meta['mdlwp-ribbon-bg-color'] ) ) echo $mdlwp_stored_meta['mdlwp-ribbon-bg-color'][0]; ?>" class="meta-color" /> 
+			        <br>
+        			<span class="description">This is the color that will be displayed if a featured image is NOT uploaded.</span>  
+			    </td>
+			</tr>
+
+			<tr>
+			    <th scope="row">
+			        <label for="mdlwp-ribbon-height" class="mdlwp-row-title"><?php _e( 'Height', 'mdlwp' )?></label>
+			    </th>
+			    <td>
+			        <input type="text" name="mdlwp-ribbon-height" id="mdlwp-ribbon-height" class="medium-text" value="<?php if ( isset ( $mdlwp_stored_meta['mdlwp-ribbon-height'] ) ) echo $mdlwp_stored_meta['mdlwp-ribbon-height'][0]; ?>" />
+			        <br>
+	        		<span class="description">This will be the height of the featured image ribbon section. (Default = 40vh)</span>   
+			    </td>
+			</tr>
+			
+		</tbody>
+	</table>
+
+	<?php
+}
+
 
 
 /**
@@ -92,6 +149,16 @@ function mdlwp_meta_save( $post_id ) {
 	// Checks for input and saves if needed
 	if( isset( $_POST[ 'mdlwp-title-color' ] ) ) {
 		update_post_meta( $post_id, 'mdlwp-title-color', $_POST[ 'mdlwp-title-color' ] );
+	}
+
+	// Checks for input and sanitizes/saves if needed
+	if( isset( $_POST[ 'mdlwp-ribbon-height' ] ) ) {
+		update_post_meta( $post_id, 'mdlwp-ribbon-height', sanitize_text_field( $_POST[ 'mdlwp-ribbon-height' ] ) );
+	}
+
+	// Checks for input and saves if needed
+	if( isset( $_POST[ 'mdlwp-ribbon-bg-color' ] ) ) {
+		update_post_meta( $post_id, 'mdlwp-ribbon-bg-color', $_POST[ 'mdlwp-ribbon-bg-color' ] );
 	}
 
 }

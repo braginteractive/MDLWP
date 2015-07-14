@@ -1,0 +1,45 @@
+.page-template-page-ribbon {
+
+	.site-main {
+		padding-top: 0;
+	
+		header h3 {
+			color: $mdl-color-text--grey-700;
+			padding-top: 30px;
+			padding-right: 16px;
+			padding-left: 16px
+		}	
+	}
+
+	.mdlwp-page-ribbon{
+		margin-top: -35vh;
+		-webkit-flex-shrink: 0;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		-ms-flex: 0 1 auto;
+		display: block;
+		overflow-y: auto;
+		overflow-x: hidden;
+		-webkit-box-flex: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		z-index: 1;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.ribbon {
+		width: 100%;
+		height: 40vh;
+		background-color: #3F51B5;
+		-webkit-flex-shrink: 0;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		background-position: center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
