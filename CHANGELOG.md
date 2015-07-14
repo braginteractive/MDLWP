@@ -1,5 +1,6 @@
 ## v1.1.2 (July 14, 2015)
 - ribbon content padding
+- default body color
 
 ## v1.1.1 (July 14, 2015)
 - fix gulp task

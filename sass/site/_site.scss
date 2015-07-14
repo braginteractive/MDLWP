@@ -12,3 +12,7 @@
 ## Templates - Page Ribbon
 --------------------------------------------------------------*/
 @import "templates/_page-ribbon";
+
+body {
+	background-color: $mdl-color-body;
+}
