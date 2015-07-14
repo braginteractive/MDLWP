@@ -1,3 +1,9 @@
+## v1.1.0 (July 14, 2015)
+- new ribbon page template
+- moved around container classes for easier page templates
+- gulp zip task
+- minor code formatting
+
 ## v1.0.1 (July 12, 2015)
 - WP Customizer support (pick primary and accent colors)
 - remove sass link color
