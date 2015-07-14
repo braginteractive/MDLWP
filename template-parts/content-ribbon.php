@@ -29,14 +29,14 @@
 <div class="mdlwp-page-ribbon">
 	<div class="mdl-grid mdlwp-1600">
 		<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-		<div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--2dp"> 
+		<div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--2dp ribbon-content"> 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				
 				<header>
 					<?php the_title( sprintf( '<h3>','</h3>' )); ?>
 				</header><!-- .entry-header -->
 
-				<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+				<div class="entry-content mdl-color-text--grey-600">
 					<?php the_content(); ?>
 					<?php
 						wp_link_pages( array(

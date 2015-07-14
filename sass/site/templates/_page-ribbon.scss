@@ -5,9 +5,7 @@
 	
 		header h3 {
 			color: $mdl-color-text--grey-700;
-			padding-top: 30px;
-			padding-right: 16px;
-			padding-left: 16px
+			margin-bottom: 15px;
 		}	
 	}
 
@@ -40,6 +38,16 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+	}
+
+	.ribbon-content {
+		padding: 40px 60px;
+	}
+
+	.is-small-screen {
+		.ribbon-content {
+			padding: 20px 30px;
+		}
 	}
 }
 
