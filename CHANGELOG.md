@@ -1,3 +1,6 @@
+## v1.1.1 (July 14, 2015)
+- fix gulp task
+
 ## v1.1.0 (July 14, 2015)
 - new ribbon page template
 - moved around container classes for easier page templates
