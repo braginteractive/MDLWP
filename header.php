@@ -19,9 +19,15 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
+<?php do_action( 'mdlwp_after_opening_body' ); ?>
+
 <div id="page" class="hfeed site mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
 <header id="masthead" class="site-header mdl-layout__header" role="banner">
+
+	<?php do_action( 'mdlwp_after_opening_header' ); ?>
+
 	<div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title"><?php bloginfo( 'name' ); ?></span>
@@ -51,6 +57,9 @@
 
         
     </div>
+
+    <?php do_action( 'mdlwp_before_closing_header' ); ?>
+
 </header>
 
     <div class="mdl-layout__drawer">
@@ -73,3 +82,5 @@
 	
 <div class="mdl-layout__content">
 	<div id="content" class="site-content">
+
+		<?php do_action( 'mdlwp_after_opening_content' ); ?>

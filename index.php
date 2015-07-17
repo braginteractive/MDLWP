@@ -19,6 +19,8 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
+			<?php do_action( 'mdlwp_before_content' ); ?>
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -34,13 +36,19 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
+			<?php do_action( 'mdlwp_before_pagination' ); ?>
+
 			<?php mdlwp_posts_navigation(); ?>
+
+			<?php do_action( 'mdlwp_after_pagination' ); ?>
 
 		<?php else : ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+
+		<?php do_action( 'mdlwp_after_content' ); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

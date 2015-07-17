@@ -11,6 +11,8 @@ get_header(); ?>
 	<section id="primary" class="mdl-grid content-area">
 		<main id="main" class="site-main mdl-grid mdlwp-900" role="main">
 
+		<?php do_action( 'mdlwp_before_content' ); ?>
+
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header mdl-cell mdl-cell--12-col">
@@ -31,13 +33,19 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
+			<?php do_action( 'mdlwp_before_pagination' ); ?>
+
 			<?php the_posts_navigation(); ?>
+
+			<?php do_action( 'mdlwp_after_pagination' ); ?>
 
 		<?php else : ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+
+		<?php do_action( 'mdlwp_after_content' ); ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->

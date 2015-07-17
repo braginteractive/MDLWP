@@ -1,3 +1,6 @@
+## v1.1.2 (July 17, 2015)
+- theme hook
+
 ## v1.1.2 (July 14, 2015)
 - ribbon content padding
 - default body color
