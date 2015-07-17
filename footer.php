@@ -24,18 +24,7 @@
 		  	<?php dynamic_sidebar( 'footer-4' ); ?>
 		  </div>
 		  
-		   <?php
-				$args = array(
-			        'theme_location' => 'footer',
-			        'menu_class' => 'mdl-mega-footer--link-list',
-			        'container_class' => 'mdl-mega-footer--bottom-section',
-					
-				);
-
-				if (has_nav_menu('footer')) {
-				    wp_nav_menu($args);
-				}
-			?>
+		 <?php get_template_part( 'template-parts/nav', 'footer' ); ?>
 
 		<?php do_action( 'mdlwp_before_closing_footer' ); ?>
 		 

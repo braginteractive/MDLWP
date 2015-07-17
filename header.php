@@ -19,7 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	
+
 <?php do_action( 'mdlwp_after_opening_body' ); ?>
 
 <div id="page" class="hfeed site mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -28,56 +28,13 @@
 
 	<?php do_action( 'mdlwp_after_opening_header' ); ?>
 
-	<div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title"><?php bloginfo( 'name' ); ?></span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-
-		<div class="mdlwp-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">   
-          <?php get_search_form(); ?>
-        </div>
-
-      <!-- Navigation. We hide it in small screens. -->
-      <div class="mdlwp-navigation-container">  
-	    <?php
-			$args = array(
-		        'theme_location' => 'primary',
-		        'container'       => 'nav',
-		        'items_wrap' => '%3$s',
-		        'container_class' => 'mdl-navigation mdl-layout--large-screen-only',
-				'walker' => new MDLWP_Nav_Walker()
-			);
-
-			if (has_nav_menu('primary')) {
-			       wp_nav_menu($args);
-			    }
-		?>
-	  </div>
-
-        
-    </div>
+	<?php get_template_part( 'template-parts/nav', 'main' ); ?>
 
     <?php do_action( 'mdlwp_before_closing_header' ); ?>
 
 </header>
 
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title"><?php bloginfo( 'name' ); ?></span>
-      <?php
-			$args = array(
-		        'theme_location' => 'drawer',
-		        'container'       => 'nav',
-		        'items_wrap' => '%3$s',
-		        'container_class' => 'mdl-navigation',
-				'walker' => new MDLWP_Nav_Walker()
-			);
-
-			if (has_nav_menu('drawer')) {
-			       wp_nav_menu($args);
-			    }
-		?>
-    </div>
+ <?php get_template_part( 'template-parts/nav', 'drawer' ); ?>
 			
 	
 <div class="mdl-layout__content">
