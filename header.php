@@ -71,5 +71,5 @@
     </div>
 			
 	
-<main class="mdl-layout__content">
+<div class="mdl-layout__content">
 	<div id="content" class="site-content">

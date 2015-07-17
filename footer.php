@@ -34,7 +34,7 @@
 		 
 		</footer>
 		
-	</main> <!-- .mdl-layout__content -->
+	</div> <!-- .mdl-layout__content -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
