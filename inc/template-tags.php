@@ -20,13 +20,13 @@ function mdlwp_posts_navigation() {
 	}
 	?>
 	<nav class="mdlwp-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col" role="navigation">
-		
+
 		<?php if ( get_previous_posts_link() ) : ?>
 		<?php previous_posts_link( __( '<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
             <i class="material-icons">arrow_back</i>
           </button> Newer', 'mdlwp' ) ); ?>
 		<?php endif; ?>
-
+		
 		<div class="section-spacer"></div>
 		<?php if ( get_next_posts_link() ) : ?>
 		<?php next_posts_link( __( 'Older
@@ -34,6 +34,7 @@ function mdlwp_posts_navigation() {
             <i class="material-icons">arrow_forward</i>
           </button>', 'mdlwp' ) ); ?>
 		<?php endif; ?>
+		
 	
 	</nav><!-- .navigation -->
 	<?php
@@ -57,10 +58,10 @@ function mdlwp_post_navigation() {
 	?>
 	<nav class="mdlwp-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col" role="navigation">
 			<?php
-				previous_post_link( '%link', '<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+				next_post_link( '%link', '<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
             <i class="material-icons">arrow_back</i>
           </button> Newer' );
-				next_post_link( '%link', 'Older
+				previous_post_link( '%link', 'Older
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
             <i class="material-icons">arrow_forward</i>
           </button>' );
