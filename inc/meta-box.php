@@ -8,11 +8,15 @@ function mdlwp_custom_meta() {
 
 	$pageTemplate = get_post_meta($post->ID, '_wp_page_template', true);
 
-	/**
-	 * Create meta box for all posts and pages
-	 */
-	if ($pageTemplate != 'templates/page-ribbon.php' ) {
+	 $exclude_pages = array(
+        'templates/page-ribbon.php',
+    );
+	
 
+	/**
+	 * Create meta box for all posts and pages except $exclude_pages
+	 */
+	if (! in_array($pageTemplate, apply_filters( 'mdlwp_exclude_metabox_post_types' , $exclude_pages ))) {
 		$screens = array( 'post', 'page' );
 
 		foreach ( $screens as $screen ) {
