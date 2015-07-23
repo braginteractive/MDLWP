@@ -10,7 +10,7 @@ MDLWP is a Material Design WordPress theme(probably the first!) that uses Sass, 
 Download free and premium plugins that add extra features and extend the functionality of MDLWP. 
 
 - [Material Design Icons](http://mdlwp.com/downloads/material-design-icons/) - thousands of community-led icons
-- [Material Design Login](http://mdlwp.com/downloads/material-design-login-form/) - take over the default WP login screens and turn them into Material Design
+- [Material Design Login](http://mdlwp.com/downloads/material-design-login-form/) - take over the default WP login screens and turn them into Material Design forms
 
 #### Future Plans
 - ~~WordPress customizer options~~ (v1.0.1)
