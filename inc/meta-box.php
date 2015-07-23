@@ -177,3 +177,21 @@ function mdlwp_color_enqueue() {
 	wp_enqueue_script( 'meta-box-color-js', get_template_directory_uri() . '/js/color-picker.js', array( 'wp-color-picker' ) );
 }
 add_action( 'admin_enqueue_scripts', 'mdlwp_color_enqueue' );
+
+/**
+ * Loads the image management javascript
+ */
+function mdlwp_image_enqueue() {	
+		wp_enqueue_media();
+ 
+		// Registers and enqueues the required javascript.
+		wp_register_script( 'meta-box-image', get_template_directory_uri() . '/js/meta-image-uploader.js', array( 'jquery' ) );
+		wp_localize_script( 'meta-box-image', 'meta_image',
+			array(
+				'title' => __( 'Choose or Upload an Image', 'mdlwp' ),
+				'button' => __( 'Use this image', 'mdlwp' ),
+			)
+		);
+		wp_enqueue_script( 'meta-box-image' );	
+}
+add_action( 'admin_enqueue_scripts', 'mdlwp_image_enqueue' );
