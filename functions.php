@@ -102,9 +102,9 @@ function mdlwp_widgets_init() {
 		'name'          => esc_html__( 'Footer 1', 'mdlwp' ),
 		'id'            => 'footer-1',
 		'description'   => '',
-		'before_widget' => '<div id="%1$s" class="mdl-mega-footer--drop-down-section footer-widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="mdl-mega-footer__drop-down-section footer-widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="mdl-mega-footer--heading footer-title">',
+		'before_title'  => '<h1 class="mdl-mega-footer__heading footer-title">',
 		'after_title'   => '</h1>',
 	) );
 
@@ -112,9 +112,9 @@ function mdlwp_widgets_init() {
 		'name'          => esc_html__( 'Footer 2', 'mdlwp' ),
 		'id'            => 'footer-2',
 		'description'   => '',
-		'before_widget' => '<div id="%1$s" class="mdl-mega-footer--drop-down-section footer-widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="mdl-mega-footer__drop-down-section footer-widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="mdl-mega-footer--heading footer-title">',
+		'before_title'  => '<h1 class="mdl-mega-footer__heading footer-title">',
 		'after_title'   => '</h1>',
 	) );
 
@@ -122,9 +122,9 @@ function mdlwp_widgets_init() {
 		'name'          => esc_html__( 'Footer 3', 'mdlwp' ),
 		'id'            => 'footer-3',
 		'description'   => '',
-		'before_widget' => '<div id="%1$s" class="mdl-mega-footer--drop-down-section footer-widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="mdl-mega-footer__drop-down-section footer-widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="mdl-mega-footer--heading footer-title">',
+		'before_title'  => '<h1 class="mdl-mega-footer__heading footer-title">',
 		'after_title'   => '</h1>',
 	) );
 
@@ -132,9 +132,9 @@ function mdlwp_widgets_init() {
 		'name'          => esc_html__( 'Footer 4', 'mdlwp' ),
 		'id'            => 'footer-4',
 		'description'   => '',
-		'before_widget' => '<div id="%1$s" class="mdl-mega-footer--drop-down-section footer-widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="mdl-mega-footer__drop-down-section footer-widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="mdl-mega-footer--heading footer-title">',
+		'before_title'  => '<h1 class="mdl-mega-footer__heading footer-title">',
 		'after_title'   => '</h1>',
 	) );
 }

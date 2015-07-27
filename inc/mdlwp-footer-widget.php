@@ -27,13 +27,13 @@ class mdlwp_widget extends WP_Widget {
 		// before and after widget arguments are defined by themes
 		echo $before_widget;
 
-		echo '<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>';
+		echo '<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>';
 
 			if ( ! empty( $title ) )
 				echo $before_title . $title . $after_title;
 
 
-			echo '<ul class="mdl-mega-footer--link-list">';
+			echo '<ul class="mdl-mega-footer__link-list">';
 			echo $text;
 			echo '</ul>';
 

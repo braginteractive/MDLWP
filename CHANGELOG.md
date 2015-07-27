@@ -1,3 +1,8 @@
+## v1.1.5 (July 27, 2015)
+- update to 1.0.1
+- 1.0.1 MDL new footer class names
+- update bower
+
 ## v1.1.4 (July 17, 2015)
 - nav partials
 

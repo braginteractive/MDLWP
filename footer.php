@@ -17,7 +17,7 @@
 
 		<?php do_action( 'mdlwp_after_opening_footer' ); ?>
 
-		  <div class="mdl-mega-footer--middle-section">
+		  <div class="mdl-mega-footer__middle-section">
 		  	<?php dynamic_sidebar( 'footer-1' ); ?>
 		  	<?php dynamic_sidebar( 'footer-2' ); ?>
 		  	<?php dynamic_sidebar( 'footer-3' ); ?>

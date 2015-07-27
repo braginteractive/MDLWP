@@ -6,7 +6,7 @@ function mdlwp_scripts() {
 	$primary = get_theme_mod( 'primary_color', 'indigo' );
 	$secondary = get_theme_mod( 'secondary_color', 'pink' );
 
-	wp_enqueue_style( 'mdlwp-mdl-css', '//storage.googleapis.com/code.getmdl.io/1.0.0/material.'.$primary.'-'.$secondary.'.min.css' );
+	wp_enqueue_style( 'mdlwp-mdl-css', '//storage.googleapis.com/code.getmdl.io/1.0.1/material.'.$primary.'-'.$secondary.'.min.css' );
 
 	wp_enqueue_style( 'mdlwp-mdl-icons', '//fonts.googleapis.com/icon?family=Material+Icons' );
 
