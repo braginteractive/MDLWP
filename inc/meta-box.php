@@ -17,7 +17,12 @@ function mdlwp_custom_meta() {
 	 * Create meta box for all posts and pages except $exclude_pages
 	 */
 	if (! in_array($pageTemplate, apply_filters( 'mdlwp_exclude_metabox_post_types' , $exclude_pages ))) {
+		
 		$screens = array( 'post', 'page' );
+
+		if(has_filter('mdlwp_include_metabox_post_types')) {
+			$screens = apply_filters('mdlwp_include_metabox_post_types', $screens);
+		}
 
 		foreach ( $screens as $screen ) {
 			add_meta_box( 'mdlwp_meta', __( 'Customize', 'mdlwp' ), 'mdlwp_meta_callback', $screen );
