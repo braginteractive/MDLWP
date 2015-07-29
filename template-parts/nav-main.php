@@ -19,8 +19,7 @@
       <?php get_search_form(); ?>
     </div>
 
-  <!-- Navigation. We hide it in small screens. -->
-  <div class="mdlwp-navigation-container">  
+  
     <?php
 		$args = array(
 	        'theme_location' => 'primary',
@@ -34,5 +33,5 @@
 		       wp_nav_menu($args);
 		    }
 	?>
-  </div>    
+    
 </div>
