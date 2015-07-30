@@ -28,8 +28,6 @@ ol.comment-list {
 	margin-right: 25px;
 	border: 1px solid #ddd;
 	border-radius: 4px;
-	-webkit-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 	padding: 4px;
 }
@@ -75,13 +73,9 @@ ol.comment-list {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: rgba(255,255,255,.84);
-	-webkit-transition: box-shadow .28s cubic-bezier(0.4,0,.2,1);
 	transition: box-shadow .28s cubic-bezier(0.4,0,.2,1);
 	outline: 0!important;
 	box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
-	-webkit-transition: box-shadow .28s cubic-bezier(0.4,0,.2,1);
-	transition: box-shadow .28s cubic-bezier(0.4,0,.2,1);
-
 	color: rgba(0,0,0,.84);
 	background-color: transparent;
 	border-color: #ccc;
