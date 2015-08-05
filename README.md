@@ -11,6 +11,8 @@ Download free and premium plugins that add extra features and extend the functio
 
 - [Material Design Icons](http://mdlwp.com/downloads/material-design-icons/) - thousands of community-led icons
 - [Material Design Login](http://mdlwp.com/downloads/material-design-login-form/) - take over the default WP login screens and turns them into Material Design forms
+- [Material Design Portfolio](http://mdlwp.com/downloads/material-design-portfolio/) - Filterable portfolio layout for MDLWP
+- [Material Design Social Sharing](http://mdlwp.com/downloads/material-design-social-sharing/) - Enables social sharing icons on indiviual posts
 
 #### Future Plans
 - ~~WordPress customizer options~~ (v1.0.1)
