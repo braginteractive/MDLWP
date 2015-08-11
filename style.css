@@ -287,15 +287,15 @@ ol.comment-list {
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
   padding: 4px; }
 
-/* line 37, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 35, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-meta {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/* line 42, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 40, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-details {
   overflow: hidden;
   zoom: 1;
@@ -303,25 +303,25 @@ ol.comment-list {
   padding-bottom: 25px;
   border-bottom: 1px solid #ddd; }
 
-/* line 50, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 48, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-details .reply {
   margin-top: 10px; }
 
-/* line 54, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 52, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-date a {
   font-size: 11px;
   color: #777;
   margin-right: 10px; }
 
-/* line 60, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 58, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform #comment {
   width: 100% !important; }
 
-/* line 64, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 62, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform .mdl-textfield {
   width: 100% !important; }
 
-/* line 68, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 66, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform #submit {
   position: relative;
   padding: 8px 30px;
@@ -333,16 +333,14 @@ ol.comment-list {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.84);
   -webkit-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0 !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
-  -webkit-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(0, 0, 0, 0.84);
   background-color: transparent;
   border-color: #ccc; }
 
-/* line 90, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
+/* line 84, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform #submit:hover {
   color: #333;
   background-color: #e6e6e6;

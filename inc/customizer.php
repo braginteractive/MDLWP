@@ -159,7 +159,7 @@ function mdlwp_customize_register( $wp_customize ) {
 					'deep_orange' 	=> '#FF5722',
 					'brown' 		=> '#795548',
 					'grey' 			=> '#9E9E9E', 
-					'blue-grey' 	=> '#607D8B',
+					'blue_grey' 	=> '#607D8B',
 				)
 			)
 		)
@@ -210,7 +210,7 @@ function mdlwp_customize_register( $wp_customize ) {
 					'deep_orange' 	=> '#FF5722',
 					//'brown' 		=> '#795548',
 					//'grey' 			=> '#9E9E9E', 
-					//'blue-grey' 	=> '#607D8B',
+					//'blue_grey' 	=> '#607D8B',
 				)
 			)
 		)
