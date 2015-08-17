@@ -1,3 +1,6 @@
+## v1.1.6 (August 17, 2015)
+- GitHub theme updater (https://github.com/afragen/github-updater)
+
 ## v1.1.5 (July 27, 2015)
 - update to 1.0.1
 - 1.0.1 MDL new footer class names
