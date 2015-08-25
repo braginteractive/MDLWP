@@ -1,3 +1,6 @@
+## v1.1.7 (August 25, 2015)
+- update to MDL 1.0.4
+
 ## v1.1.6 (August 17, 2015)
 - GitHub theme updater (https://github.com/afragen/github-updater)
 
