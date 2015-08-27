@@ -77,6 +77,6 @@ endif;
  */
 
 function modify_read_more_link() {
-	return '<br><br><a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" href="' . get_permalink() . '">'. __( 'Read More', 'textdomain' ). '</a>';
+	return '<br><br><a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" href="' . get_permalink() . '">'. __( 'Read More', 'mdlwp' ). '</a>';
 }
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
