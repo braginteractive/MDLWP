@@ -12,7 +12,7 @@
 	<?php do_action( 'mdlwp_before_closing_content' ); ?>
 
 	</div><!-- #content -->
-
+    </main> <!-- .mdl-layout__content -->
 		<footer class="mdl-mega-footer">
 
 		<?php do_action( 'mdlwp_after_opening_footer' ); ?>
@@ -23,14 +23,14 @@
 		  	<?php dynamic_sidebar( 'footer-3' ); ?>
 		  	<?php dynamic_sidebar( 'footer-4' ); ?>
 		  </div>
-		  
+
 		 <?php get_template_part( 'template-parts/nav', 'footer' ); ?>
 
 		<?php do_action( 'mdlwp_before_closing_footer' ); ?>
-		 
+
 		</footer>
-		
-	</div> <!-- .mdl-layout__content -->
+
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

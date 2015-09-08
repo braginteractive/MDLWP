@@ -2,17 +2,22 @@
 ## Posts and pages
 --------------------------------------------------------------*/
 @import "primary/posts-and-pages";
-
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
 @import "primary/comments";
-
 /*--------------------------------------------------------------
 ## Templates - Page Ribbon
 --------------------------------------------------------------*/
 @import "templates/_page-ribbon";
 
 body {
-	background-color: $mdl-color-body;
+  background-color: $mdl-color-body;
+
+  #page {
+    min-height: 100%;
+    height: auto;
+    overflow-y: hidden;
+  }
 }
+
