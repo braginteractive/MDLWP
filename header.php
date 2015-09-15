@@ -37,7 +37,7 @@
  <?php get_template_part( 'template-parts/nav', 'drawer' ); ?>
 			
 	
-<div class="mdl-layout__content">
+<main class="mdl-layout__content">
 	<div id="content" class="site-content">
 
 		<?php do_action( 'mdlwp_after_opening_content' ); ?>
