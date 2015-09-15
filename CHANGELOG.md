@@ -1,3 +1,6 @@
+## v1.1.8 (Septemeber 15, 2015)
+- sticky footer thanks to https://github.com/atais
+
 ## v1.1.7 (August 25, 2015)
 - update to MDL 1.0.4
 

@@ -4,7 +4,7 @@ Theme URI: https://github.com/braginteractive/MDLWP
 Author: Brad Williams
 Author URI: http://braginteractive.com
 Description: Material Design Lite WordPress Theme
-Version: 1.1.7
+Version: 1.1.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: mdlwp
@@ -37,7 +37,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-/* line 5, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/typography/_typography.scss */
+/* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/typography/_typography.scss */
 body,
 button,
 input,
@@ -54,7 +54,7 @@ textarea {
 /*--------------------------------------------------------------
 ## Main Navigation
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_main-navigation.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_main-navigation.scss */
 .mdlwp-navigation-container {
   direction: rtl;
   -webkit-box-ordinal-group: 2;
@@ -65,7 +65,7 @@ textarea {
   -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
           transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
 
-/* line 8, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_main-navigation.scss */
+/* line 8, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_main-navigation.scss */
 .mdlwp-search-box {
   -webkit-box-ordinal-group: 3;
   -webkit-order: 2;
@@ -73,10 +73,10 @@ textarea {
           order: 2;
   margin-left: 16px;
   margin-right: 16px; }
-  /* line 13, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_main-navigation.scss */
+  /* line 13, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_main-navigation.scss */
   .mdlwp-search-box .mdl-textfield__input {
     border-bottom: 1px solid #fff; }
-  /* line 17, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_main-navigation.scss */
+  /* line 17, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_main-navigation.scss */
   .mdlwp-search-box.is-focused ~ .mdlwp-navigation-container {
     opacity: 0;
     width: 100px; }
@@ -84,7 +84,7 @@ textarea {
 /*--------------------------------------------------------------
 ## Posts Navigation
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_post-navigation.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_post-navigation.scss */
 .mdlwp-nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -105,37 +105,37 @@ textarea {
           align-items: center;
   color: #757575;
   font-weight: 500; }
-  /* line 9, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_post-navigation.scss */
+  /* line 9, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_post-navigation.scss */
   .mdlwp-nav > .mdlwp-nav__button {
     color: #757575;
     text-decoration: none; }
-  /* line 14, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_post-navigation.scss */
+  /* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_post-navigation.scss */
   .mdlwp-nav .mdl-button {
     color: rgba(0, 0, 0, 0.54);
     background-color: white; }
-  /* line 19, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_post-navigation.scss */
+  /* line 19, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_post-navigation.scss */
   .mdlwp-nav > .mdlwp-nav__button:first-child .mdl-button {
     margin-right: 16px; }
-  /* line 23, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/navigation/_post-navigation.scss */
+  /* line 23, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/navigation/_post-navigation.scss */
   .mdlwp-nav > .mdlwp-nav__button:last-child .mdl-button {
     margin-left: 16px; }
 
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/modules/_alignments.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/modules/_alignments.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em; }
 
-/* line 7, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/modules/_alignments.scss */
+/* line 7, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/modules/_alignments.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em; }
 
-/* line 13, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/modules/_alignments.scss */
+/* line 13, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/modules/_alignments.scss */
 .aligncenter {
   display: block;
   margin-left: auto;
@@ -144,11 +144,11 @@ textarea {
 /*--------------------------------------------------------------
 # Widths
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/modules/_widths.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/modules/_widths.scss */
 .mdlwp-900 {
   max-width: 900px; }
 
-/* line 5, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/modules/_widths.scss */
+/* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/modules/_widths.scss */
 .mdlwp-1600 {
   max-width: 1600px; }
 
@@ -158,23 +158,23 @@ textarea {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .site-main {
   padding-top: 40px;
   -ms-word-wrap: break-word;
   word-wrap: break-word; }
-  /* line 6, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+  /* line 6, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
   .site-main .mdl-card {
     margin-bottom: 35px; }
-  /* line 10, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+  /* line 10, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
   .site-main header h3 {
     margin: 0;
     color: #fff; }
-    /* line 14, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+    /* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
     .site-main header h3 a {
       color: #fff;
       text-decoration: none; }
-  /* line 24, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+  /* line 24, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
   .site-main .mdl-card__media {
     box-sizing: border-box;
     background-size: cover;
@@ -199,7 +199,7 @@ textarea {
             align-items: flex-end;
     cursor: pointer;
     height: 280px; }
-  /* line 37, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+  /* line 37, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
   .site-main .meta {
     box-sizing: border-box;
     padding: 16px;
@@ -221,7 +221,7 @@ textarea {
         -ms-flex-pack: start;
             justify-content: flex-start;
     height: auto; }
-    /* line 47, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+    /* line 47, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
     .site-main .meta .avatar,
     .site-main .meta .entry-meta {
       display: -webkit-box;
@@ -233,25 +233,25 @@ textarea {
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column; }
-    /* line 51, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+    /* line 51, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
     .site-main .meta .avatar-img {
       margin-right: 15px; }
-      /* line 54, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+      /* line 54, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
       .site-main .meta .avatar-img img {
         border-radius: 50%; }
-    /* line 60, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+    /* line 60, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
     .site-main .meta .entry-meta a {
       text-decoration: none;
       color: #757575;
       font-size: 12px;
       line-height: 16px; }
 
-/* line 71, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+/* line 71, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single-post .entry-content p {
   font-size: 16px;
   line-height: 28px; }
 
-/* line 79, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_posts-and-pages.scss */
+/* line 79, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
 .single .mdl-card__media,
 .page .mdl-card__media {
   cursor: default; }
@@ -259,30 +259,30 @@ textarea {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comments {
   background-color: #EEE; }
 
-/* line 5, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-content a {
   word-wrap: break-word; }
 
-/* line 12, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 12, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comments-area {
   padding: 35px; }
 
-/* line 16, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 16, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comments-title, .comment-reply-title {
   padding-bottom: 9px;
   margin: 40px 0 20px 0;
   border-bottom: 1px solid #eee; }
 
-/* line 22, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 22, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 ol.comment-list {
   list-style: none;
   padding-left: 0; }
 
-/* line 27, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 27, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-author .avatar {
   margin-right: 25px;
   border: 1px solid #ddd;
@@ -291,12 +291,12 @@ ol.comment-list {
           transition: all 0.2s ease-in-out;
   padding: 4px; }
 
-/* line 35, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 35, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-meta {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/* line 40, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 40, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-details {
   overflow: hidden;
   zoom: 1;
@@ -304,25 +304,25 @@ ol.comment-list {
   padding-bottom: 25px;
   border-bottom: 1px solid #ddd; }
 
-/* line 48, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 48, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-details .reply {
   margin-top: 10px; }
 
-/* line 52, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 52, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 .comment-date a {
   font-size: 11px;
   color: #777;
   margin-right: 10px; }
 
-/* line 58, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 58, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform #comment {
   width: 100% !important; }
 
-/* line 62, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 62, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform .mdl-textfield {
   width: 100% !important; }
 
-/* line 66, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 66, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform #submit {
   position: relative;
   padding: 8px 30px;
@@ -341,7 +341,7 @@ ol.comment-list {
   background-color: transparent;
   border-color: #ccc; }
 
-/* line 84, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/primary/_comments.scss */
+/* line 84, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
 #commentform #submit:hover {
   color: #333;
   background-color: #e6e6e6;
@@ -350,15 +350,15 @@ ol.comment-list {
 /*--------------------------------------------------------------
 ## Templates - Page Ribbon
 --------------------------------------------------------------*/
-/* line 3, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/templates/_page-ribbon.scss */
+/* line 3, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/templates/_page-ribbon.scss */
 .page-template-page-ribbon .site-main {
   padding-top: 0; }
-  /* line 6, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/templates/_page-ribbon.scss */
+  /* line 6, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/templates/_page-ribbon.scss */
   .page-template-page-ribbon .site-main header h3 {
     color: #616161;
     margin-bottom: 15px; }
 
-/* line 12, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/templates/_page-ribbon.scss */
+/* line 12, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/templates/_page-ribbon.scss */
 .page-template-page-ribbon .mdlwp-page-ribbon {
   margin-top: -35vh;
   -webkit-flex-shrink: 0;
@@ -374,7 +374,7 @@ ol.comment-list {
   z-index: 1;
   -webkit-overflow-scrolling: touch; }
 
-/* line 23, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/templates/_page-ribbon.scss */
+/* line 23, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/templates/_page-ribbon.scss */
 .page-template-page-ribbon .ribbon {
   width: 100%;
   height: 40vh;
@@ -385,18 +385,18 @@ ol.comment-list {
   background-position: center;
   background-size: cover; }
 
-/* line 32, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/templates/_page-ribbon.scss */
+/* line 32, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/templates/_page-ribbon.scss */
 .page-template-page-ribbon .ribbon-content {
   padding: 40px 60px; }
 
-/* line 37, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/templates/_page-ribbon.scss */
+/* line 37, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/templates/_page-ribbon.scss */
 .page-template-page-ribbon .is-small-screen .ribbon-content {
   padding: 20px 30px; }
 
-/* line 14, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/_site.scss */
+/* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_site.scss */
 body {
   background-color: #f5f5f5; }
-  /* line 17, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/_site.scss */
+  /* line 17, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_site.scss */
   body #page {
     min-height: 100%;
     height: auto;
@@ -405,18 +405,18 @@ body {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/_footer.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_footer.scss */
 .mdl-mega-footer {
   clear: both;
   position: relative; }
-  /* line 5, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/site/_footer.scss */
+  /* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_footer.scss */
   .mdl-mega-footer a:hover {
     color: #fff; }
 
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-/* line 3, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_media.scss */
+/* line 3, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_media.scss */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -426,7 +426,7 @@ body {
   padding: 0; }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 13, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_media.scss */
+/* line 13, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_media.scss */
 embed,
 iframe,
 object {
@@ -435,62 +435,62 @@ object {
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_captions.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_captions.scss */
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%; }
-  /* line 5, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_captions.scss */
+  /* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_captions.scss */
   .wp-caption img[class*="wp-image-"] {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  /* line 9, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_captions.scss */
+  /* line 9, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_captions.scss */
   .wp-caption .wp-caption-text {
     margin: 0.8075em 0; }
 
-/* line 14, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_captions.scss */
+/* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_captions.scss */
 .wp-caption-text {
   text-align: center; }
 
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-/* line 1, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
 .gallery {
   margin-bottom: 1.5em; }
 
-/* line 5, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+/* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
 .gallery-item {
   display: inline-block;
   text-align: center;
   vertical-align: top;
   width: 100%; }
-  /* line 11, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 11, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-2 .gallery-item {
     max-width: 50%; }
-  /* line 15, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 15, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-3 .gallery-item {
     max-width: 33.33%; }
-  /* line 19, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 19, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-4 .gallery-item {
     max-width: 25%; }
-  /* line 23, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 23, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-5 .gallery-item {
     max-width: 20%; }
-  /* line 27, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 27, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-6 .gallery-item {
     max-width: 16.66%; }
-  /* line 31, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 31, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-7 .gallery-item {
     max-width: 14.28%; }
-  /* line 35, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 35, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-8 .gallery-item {
     max-width: 12.5%; }
-  /* line 39, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+  /* line 39, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
   .gallery-columns-9 .gallery-item {
     max-width: 11.11%; }
 
-/* line 44, /Applications/MAMP/htdocs/wp-content/themes/MDLWP/sass/media/_galleries.scss */
+/* line 44, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_galleries.scss */
 .gallery-caption {
   display: block; }
 
