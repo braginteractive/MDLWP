@@ -12,7 +12,7 @@
 	<?php do_action( 'mdlwp_before_closing_content' ); ?>
 
 	</div><!-- #content -->
-    </main> <!-- .mdl-layout__content -->
+   
 		<footer class="mdl-mega-footer">
 
 		<?php do_action( 'mdlwp_after_opening_footer' ); ?>
@@ -30,7 +30,7 @@
 
 		</footer>
 
-
+    </main> <!-- .mdl-layout__content -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

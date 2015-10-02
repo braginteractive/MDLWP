@@ -396,20 +396,14 @@ ol.comment-list {
 /* line 14, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_site.scss */
 body {
   background-color: #f5f5f5; }
-  /* line 17, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_site.scss */
-  body #page {
-    min-height: 100%;
-    height: auto;
-    overflow-y: hidden; }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 /* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_footer.scss */
 .mdl-mega-footer {
-  clear: both;
-  position: relative; }
-  /* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_footer.scss */
+  margin-top: 80px; }
+  /* line 4, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/_footer.scss */
   .mdl-mega-footer a:hover {
     color: #fff; }
 

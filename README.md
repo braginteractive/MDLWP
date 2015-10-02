@@ -54,4 +54,3 @@ After you've downloaded MDLWP, and run `npm install` and `gulp` from the command
 
 #### Contributors 
 - [Mark Constable](https://github.com/markc) - github updater
-- [Michał Siatkowski](https://github.com/atais) - sticky footer
