@@ -1,3 +1,7 @@
+## v1.1.9 (Septemeber 15, 2015)
+- update to MDL 1.0.5
+- remove sticky footer, broke fixed navigation
+
 ## v1.1.8 (Septemeber 15, 2015)
 - sticky footer thanks to https://github.com/atais
 
