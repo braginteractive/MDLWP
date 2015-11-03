@@ -1,3 +1,6 @@
+## v1.2.0 (November 3, 2015)
+- update to MDL 1.0.6
+
 ## v1.1.9 (Septemeber 15, 2015)
 - update to MDL 1.0.5
 - remove sticky footer, broke fixed navigation

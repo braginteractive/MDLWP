@@ -4,7 +4,7 @@ Theme URI: https://github.com/braginteractive/MDLWP
 Author: Brad Williams
 Author URI: http://braginteractive.com
 Description: Material Design Lite WordPress Theme
-Version: 1.1.9
+Version: 1.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: mdlwp
@@ -37,7 +37,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-/* line 5, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/typography/_typography.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/typography/_typography.scss */
 body,
 button,
 input,
@@ -221,7 +221,7 @@ textarea {
         -ms-flex-pack: start;
             justify-content: flex-start;
     height: auto; }
-    /* line 47, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
+    /* line 46, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_posts-and-pages.scss */
     .site-main .meta .avatar,
     .site-main .meta .entry-meta {
       display: -webkit-box;
@@ -287,8 +287,8 @@ ol.comment-list {
   margin-right: 25px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
   padding: 4px; }
 
 /* line 35, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/site/primary/_comments.scss */
@@ -410,7 +410,7 @@ body {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-/* line 3, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_media.scss */
+/* line 1, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_media.scss */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -420,7 +420,7 @@ body {
   padding: 0; }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 13, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_media.scss */
+/* line 11, /Users/bradwilliams/Documents/Brag/Development/WordPress Development/wp-content/themes/mdlwp/sass/media/_media.scss */
 embed,
 iframe,
 object {
