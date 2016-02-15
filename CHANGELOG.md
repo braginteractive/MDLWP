@@ -1,3 +1,6 @@
+## v1.2.1 (Febuary 15, 2016)
+- update to MDL 1.1.1
+
 ## v1.2.0 (November 3, 2015)
 - update to MDL 1.0.6
 

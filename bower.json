@@ -21,6 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "material-design-lite": "~1.0.1"
+    "material-design-lite": null
   }
 }
