@@ -12,7 +12,6 @@
     "gulp-include": "^1.1.1",
     "gulp-jshint": "^1.10.0",
     "gulp-livereload": "^3.8.0",
-    "gulp-minify-css": "^1.1.1",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.0.0",
     "gulp-rename": "^1.2.2",

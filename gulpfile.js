@@ -4,16 +4,15 @@ var gulp = require( 'gulp' ),
   autoprefixer = require('gulp-autoprefixer'),
   watch = require( 'gulp-watch' ),
   livereload = require( 'gulp-livereload' ),
-  minifycss = require( 'gulp-minify-css' ),
   jshint = require( 'gulp-jshint' ),
   stylish = require( 'jshint-stylish' ),
   uglify = require( 'gulp-uglify' ),
   rename = require( 'gulp-rename' ),
   notify = require( 'gulp-notify' ),
   include = require( 'gulp-include' ),
-  sass = require( 'gulp-sass' );
-  imagemin = require('gulp-imagemin');
-  bower = require('gulp-bower');
+  sass = require( 'gulp-sass' ),
+  imagemin = require('gulp-imagemin'),
+  bower = require('gulp-bower'),
   zip = require('gulp-zip');
 
 var config = {
@@ -77,35 +76,42 @@ gulp.task( 'scripts', ['jshint'], function() {
     .pipe( livereload() );
 } );
 
-// As with javascripts this task creates two files, the regular and
-// the minified one. It automatically reloads browser as well.
+// Different options for the Sass tasks
 var options = {};
 options.sass = {
   errLogToConsole: true,
-  sourceMap: 'sass',
-  sourceComments: 'map',
-  precision: 10,
+  precision: 8,
+  noCache: true,
   //imagePath: 'assets/img',
 };
-options.autoprefixer = {
-  map: true
-  //from: 'sass',
-  //to: 'asrp.min.css'
+
+options.sassmin = {
+  errLogToConsole: true,
+  precision: 8,
+  noCache: true,
+  outputStyle: 'compressed',
+  //imagePath: 'assets/img',
 };
 
+// Sass
 gulp.task('sass', function() {
-  return gulp.src('./sass/style.scss')
-    .pipe( plumber( { errorHandler: onError } ) )
-    .pipe(sass(options.sass))
-    .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4',
-      options.autoprefixer
-      ))
-    .pipe( gulp.dest( '.' ) )
-    .pipe( minifycss() )
-    .pipe( rename( { suffix: '.min' } ) )
-    .pipe( gulp.dest( '.' ) )
-    .pipe(notify({ message: 'sass task complete' }))
-    .pipe( livereload() );
+    return gulp.src('./sass/style.scss')
+        .pipe(plumber())
+        .pipe(sass(options.sass))
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('.'))
+        .pipe(notify({ title: 'Sass', message: 'sass task complete'  }));
+});
+
+// Sass-min - Release build minifies CSS after compiling Sass
+gulp.task('sass-min', function() {
+    return gulp.src('./sass/style.scss')
+        .pipe(plumber())
+        .pipe(sass(options.sassmin))
+        .pipe(autoprefixer())
+        .pipe( rename( { suffix: '.min' } ) )
+        .pipe(gulp.dest('.'))
+        .pipe(notify({ title: 'Sass', message: 'sass-min task complete' }));
 });
 
 // Optimize Images
@@ -124,7 +130,7 @@ gulp.task( 'watch', function() {
   // don't listen to whole js folder, it'll create an infinite loop
   gulp.watch( [ './js/**/*.js', '!./js/dist/*.js' ], [ 'scripts' ] )
  
-  gulp.watch( './sass/**/*.scss', ['sass'] );
+  gulp.watch( './sass/**/*.scss', ['sass', 'sass-min'] );
 
   gulp.watch('./images/**/*', ['images']);
  
