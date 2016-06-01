@@ -36,6 +36,7 @@ function mdlwp_customize_register( $wp_customize ) {
 		// $args
 		array(
 			'indigo'			=> '#3F51B5',
+			'default'			=> 'indigo',
 		)
 	);
 
@@ -56,6 +57,7 @@ function mdlwp_customize_register( $wp_customize ) {
 		// $args
 		array(
 			'pink'			=> '#E91E63',
+			'default'		=> 'pink',
 		)
 	);
 
