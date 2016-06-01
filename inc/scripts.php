@@ -12,7 +12,7 @@ function mdlwp_scripts() {
 
 	wp_enqueue_style( 'mdlwp-mdl-roboto', '//fonts.googleapis.com/css?family=Roboto:300,400,500,700' );
 
-	wp_enqueue_style( 'mdlwp-style', get_stylesheet_directory_uri() . '/style.min.css' );
+	wp_enqueue_style( 'mdlwp-style', get_template_directory_uri() . '/style.min.css' );
 
 	wp_enqueue_script( 'mdlwp-mdl-js', '//storage.googleapis.com/code.getmdl.io/1.1.3/material.min.js', array(), '1.1.1', true );
 
