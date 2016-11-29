@@ -18,8 +18,8 @@
 	<div class="mdlwp-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">   
       <?php get_search_form(); ?>
     </div>
-
-  
+  <!-- Navigation. We hide it in small screens. -->
+  <div class="mdlwp-navigation-container">
     <?php
 		$args = array(
 	        'theme_location' => 'primary',
@@ -33,5 +33,6 @@
 		       wp_nav_menu($args);
 		    }
 	?>
+	</div>
     
 </div>
