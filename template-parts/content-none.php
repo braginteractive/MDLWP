@@ -12,7 +12,7 @@
 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp"> 
 	<section class="no-results not-found mdl-card__supporting-text">
 		<header class="page-header">
-			<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'mdlwp' ); ?></h1>
+            <h1 class="page-title"><?php esc_html_e('Δεν υπάρχει ακόμα περιεχόμενο.', 'mdlwp'); ?></h1>
 		</header><!-- .page-header -->
 
 		<div class="page-content">
@@ -22,11 +22,11 @@
 
 			<?php elseif ( is_search() ) : ?>
 
-				<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'mdlwp' ); ?></p>
+                <p><?php esc_html_e('Συγνώμη, δεν βρήκαμε κάτι με τους όρους που αναζητήσατε. Παρακαλώ αναζητήστε με διαφορεικές λέξεις κλειδιά.', 'mdlwp'); ?></p>
 
 			<?php else : ?>
 
-				<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'mdlwp' ); ?></p>
+                <p><?php esc_html_e('Φαίνεται πως δεν υπάρχει ακόμα περιεχόμενο. Μάλλον οι διαχειριστές δεν έχουν δημοσιεύσει κάτι ακόμα :/.', 'mdlwp'); ?></p>
 
 			<?php endif; ?>
 		</div><!-- .page-content -->
