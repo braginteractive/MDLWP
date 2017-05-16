@@ -243,7 +243,7 @@ get_header(); ?>
                                 <li class="mdl-list__item">
                                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white"
                                        href="http://www.michanikos.gr/"
-                                       target="_blank">Μιχανικός</a>
+                                       target="_blank">Μηχανικός</a>
                                 </li>
                                 <li class="mdl-list__item"><a
                                             class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white"
