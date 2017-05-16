@@ -68,7 +68,7 @@ get_header(); ?>
 
                         .demo-card-square > .mdl-card__title {
                             color: #fff;
-                            background: url('http://www.androidguys.com/wp-content/uploads/2014/11/material_design_wallpaper-5.jpg') bottom right 15% no-repeat #46B6AC;
+                            background: url('https://www.androidguys.com/wp-content/uploads/2014/11/material_design_wallpaper-5.jpg') bottom right 15% no-repeat #46B6AC;
                         }
 
                         .disquss > .mdl-card__title {
