@@ -17,7 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <script type='text/javascript'
-            src="https://cdn.rawgit.com/pupunzi/jquery.mb.YTPlayer/master/dist/jquery.mb.YTPlayer.min.js"></script>
+            src="https://cdn.rawgit.com/Rambou/MDLWP/master/js/jquery.mb.YTPlayer.min.js"></script>
 
     <?php wp_head(); ?>
 </head>
