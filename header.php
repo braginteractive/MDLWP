@@ -19,6 +19,8 @@
     <script type='text/javascript'
             src="https://cdn.rawgit.com/Rambou/MDLWP/master/js/jquery.mb.YTPlayer.min.js"></script>
 
+    <script type='text/javascript'
+            src="https://cdn.rawgit.com/moappi/json2html/master/json2html.js"></script>
     <?php wp_head(); ?>
 </head>
 
