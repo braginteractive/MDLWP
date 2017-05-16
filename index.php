@@ -13,6 +13,36 @@
 
 get_header(); ?>
 
+    <div class="mdl-grid mdl-grid--no-spacing mdl-layout--large-screen-only">
+
+        <div class="mdl-cell mdl-cell--12-col">
+            <!--Video Section-->
+            <section class="content-section video-section">
+                <div class="pattern-overlay">
+                    <a id="bgndVideo" class="player"
+                       data-property="{videoURL:'VfjYqHGAGwA',containment:'.video-section', showYTLogo:false, quality:'default', autoPlay:true, stopMovieOnBlur:false, loop:true, mute:true, opacity:1, startAt:10, addRaster:true}">bg</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1>TEE</h1>
+                                <div class="divider"></div>
+                                <h3 id="colorize">Τμήμα Βορειοανατολικού Αιγαίου</h3>
+                                <!--<div class="pattern"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+    <!-- callout -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".player").mb_YTPlayer();
+        });
+    </script>
 
     <div id="primary" class="content-area">
         <main id="main" class="site-main mdl-grid" role="main">
