@@ -12,7 +12,7 @@
 	<?php do_action( 'mdlwp_before_closing_content' ); ?>
 
 	</div><!-- #content -->
-   
+<div class="mdl-layout-spacer"></div>
 		<footer class="mdl-mega-footer">
 
 		<?php do_action( 'mdlwp_after_opening_footer' ); ?>

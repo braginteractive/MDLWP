@@ -14,8 +14,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+    <script type='text/javascript'
+            src="https://cdn.rawgit.com/Rambou/MDLWP/master/js/jquery.mb.YTPlayer.min.js"></script>
 
-<?php wp_head(); ?>
+    <script type='text/javascript'
+            src="https://cdn.rawgit.com/moappi/json2html/master/json2html.js"></script>
+    <script type='text/javascript'
+            src="https://cdn.rawgit.com/moappi/jquery.json2html/master/jquery.json2html.js"></script>
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -35,9 +43,9 @@
 </header>
 
  <?php get_template_part( 'template-parts/nav', 'drawer' ); ?>
-			
-	
-<main class="mdl-layout__content">
+
+
+    <main class="mdl-layout__content">
 	<div id="content" class="site-content">
 
 		<?php do_action( 'mdlwp_after_opening_content' ); ?>
