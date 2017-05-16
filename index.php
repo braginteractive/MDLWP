@@ -200,8 +200,8 @@ get_header(); ?>
 
 
                     <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-                        <div class="mdl-card__title mdl-card--expand">
-                            ΠΡΟΚΗΡΥΞΕΙΣ - ΔΙΑΓΩΝΙΣΜΟΙ
+                        <div class="mdl-card__supporting-text">
+                            <h4><b>Προκηρύξεις - Διαγωνισμοί</b></h4>
                         </div>
                         <div class="mdl-grid">
 
