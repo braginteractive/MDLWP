@@ -16,7 +16,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
-    <script type='text/javascript' src="../wp-content/themes/MDLWP-master/js/jquery.mb.YTPlayer.min.js"></script>
+    <script type='text/javascript'
+            src="https://raw.githubusercontent.com/pupunzi/jquery.mb.YTPlayer/master/dist/jquery.mb.YTPlayer.min.js"></script>
 
     <?php wp_head(); ?>
 </head>
