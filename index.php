@@ -206,13 +206,13 @@ get_header(); ?>
                         .samos-card-image.mdl-card {
                             width: 256px;
                             height: 256px;
-                            background: url('http://content-mcdn.ethnos.gr/filesystem/images/20160212/engine/assets_LARGE_t_183762_54059396_type13145.jpg') center / cover;
+                            background: url('https://www.ba-aigaio.tee.gr/wp-content/uploads/2017/05/assets_LARGE_t_183762_54059396_type13145.jpg') center / cover;
                         }
 
                         .icaria-card-image.mdl-card {
                             width: 256px;
                             height: 256px;
-                            background: url('http://greekvoyager.com/wp-content/uploads/2016/01/ikaria-location.jpg') center / cover;
+                            background: url('http://www.ba-aigaio.tee.gr/wp-content/uploads/2017/05/ikaria-location.jpg') center / cover;
                         }
 
                         .card-image > .mdl-card__actions {
