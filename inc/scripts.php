@@ -16,7 +16,7 @@ function mdlwp_scripts() {
 
 	wp_enqueue_script( 'mdlwp-mdl-js', '//storage.googleapis.com/code.getmdl.io/1.1.3/material.min.js', array(), '1.1.1', true );
 
-	wp_enqueue_script( 'mdlwp-mdlwp-js', get_template_directory_uri() . '/js/dist/scripts.min.js', array('jquery'), '1.1.9', true );
+    wp_enqueue_script('mdlwp-mdlwp-js', get_template_directory_uri() . '/js/dist/scripts.min.js', array('jquery'), '3.2.1', true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
