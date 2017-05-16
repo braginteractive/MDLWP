@@ -10,7 +10,7 @@
 ?>
 
 <div class="mdl-layout__drawer">
-  <span class="mdl-layout-title"><?php bloginfo( 'name' ); ?></span>
+    <span class="mdl-layout-title"><?php //bloginfo( 'name' ); ?> ΤΕΕ Β.Α.</span>
   <?php
 		$args = array(
 	        'theme_location' => 'drawer',
